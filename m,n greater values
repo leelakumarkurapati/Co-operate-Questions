@@ -1,0 +1,9 @@
+m = int(input("Enter the starting number (m): "))
+n = int(input("Enter the ending number (n): "))
+sum = 0
+if m > n:
+    for i in range(m, n - 1, -1):  
+        sum += i ** 3 
+else:
+  print("m should be greater than n")
+print(sum)
